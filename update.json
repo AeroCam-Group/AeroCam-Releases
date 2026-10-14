@@ -1,11 +1,11 @@
 {
   "beta": {
-    "version": "",
-    "code": 0,
-    "url": "",
-    "sha256": "",
+    "version": "92.03.07",
+    "code": 3007,
+    "url": "https://github.com/AeroCam-Group/AeroCam-Releases/releases/download/beta-92.03.07/AeroZ-Beta-92.03.07.apk",
+    "sha256": "0efe24e402fc52bd5a51fe02564c8d6a0928060d4e14e268d57cfb84ee03a5e8",
     "notes": "",
-    "published": "",
+    "published": "2026-10-14",
     "ended": false
   },
   "revoked_keys": []
