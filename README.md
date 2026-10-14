@@ -18,7 +18,7 @@ Beta 預設是**免費版**（藍牙傳輸、用 USB 手動挑選並下載原圖
 **目前的測試金鑰**（有效到 **2026-10-27**，含當天）：
 
 ```
-MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAE9cUHfjWEja6M3UsuNJuR78BafXnCrYrZByLKyfeWx18dAk6y00QdWRN6S/oB7AcQN4bO8pcwAbN8+KJ/YLEvKw==
+AZB1-Q0lORXxwdWJsaWMtMjAyNjEwMTR8MjAyNjEwMTR8MjAyNjEwMjc.MEUCIH2c8XBd50mGuYG_7sC6dh4rX04b9ytT3qwJjxcy4TZ9AiEAzkPIO56cgShx-dyEeyIJiQGaiq7ib4w6OPHXnTNlZv0
 ```
 <!-- /BETA-KEY -->
 
