@@ -15,7 +15,11 @@ AeroZ 讓 Nikon Z 相機的照片直接傳到 Android 手機。這裡發佈的�
 Beta 預設是**免費版**（藍牙傳輸、用 USB 手動挑選並下載原圖）。輸入下面的測試金鑰，就能開啟 **Pro 和 Cine 的全部功能**。
 
 <!-- BETA-KEY -->
-目前還沒有發佈測試金鑰，請稍後再回來看。
+**目前的測試金鑰**（有效到 **2026-10-27**，含當天）：
+
+```
+AZB1-Q0lORXxwdWJsaWMtMjAyNjEwMTR8MjAyNjEwMTR8MjAyNjEwMjc.MEUCIH2c8XBd50mGuYG_7sC6dh4rX04b9ytT3qwJjxcy4TZ9AiEAzkPIO56cgShx-dyEeyIJiQGaiq7ib4w6OPHXnTNlZv0
+```
 <!-- /BETA-KEY -->
 
 **怎麼輸入**：AeroZ Beta → 設定 → 支援 →「輸入測試金鑰」，貼上整串文字。在上鎖的功能點下去，對話框裡也有「輸入測試金鑰」。
