@@ -31,9 +31,13 @@ AZB1-Q0lORXxwdWJsaWMtMjAyNjEwMTR8MjAyNjEwMTR8MjAyNjEwMjc.MEUCIH2c8XBd50mGuYG_7sC
 
 正式版推出時，Beta 會停止更新，最後一組金鑰到期後就回到免費版，屆時請改裝正式版。
 
+## 使用手冊
+
+[使用手冊（繁體中文）](manual/zh-TW/README.md)：安裝、連接相機、各功能、設定逐項說明、常見問題。
+
 ## 回報問題
 
-請在 [Issues](../../issues) 回報，附上手機型號、相機型號和 Beta 版本（首頁左上角）。
+請到 [Issues](../../issues/new/choose) 選表單回報（Bug、功能建議、翻譯錯誤、機型回報），附上手機型號、相機型號和 Beta 版本（首頁左上角）。Issue 是公開的，請不要貼個資。
 
 ---
 
