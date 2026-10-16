@@ -1,0 +1,40 @@
+name: 機型回報 / Camera report
+description: 用其他相機測試的結果 / Results with a camera we haven't tested
+labels: ["機型"]
+body:
+  - type: input
+    id: camera
+    attributes:
+      label: 相機品牌型號與韌體 / Camera brand, model and firmware
+      placeholder: "Nikon Z6III, V1.10"
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: AeroZ 版本 / AeroZ version
+    validations:
+      required: true
+  - type: checkboxes
+    id: works
+    attributes:
+      label: 可以用的功能 / What works
+      options:
+        - label: 藍牙配對、時間位置同步 / Bluetooth pairing, time and location
+        - label: 藍牙傳照片 / Bluetooth transfer
+        - label: 藍牙遙控 / Bluetooth remote
+        - label: 一鍵連線 / One-tap camera Wi‑Fi
+        - label: Wi‑Fi 相簿 / Wi‑Fi gallery
+        - label: 自動接收 / Auto receive
+        - label: 遠端拍攝 / Remote shooting
+        - label: USB 相簿 / USB gallery
+        - label: 錄影監控 / Video monitor
+  - type: textarea
+    id: notes
+    attributes:
+      label: 不能用的功能、其他說明 / What doesn't work, notes
+  - type: textarea
+    id: diag
+    attributes:
+      label: 診斷資訊 / Diagnostics
+      render: text

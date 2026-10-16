@@ -1,0 +1,66 @@
+name: Bug 回報 / Bug report
+description: 功能不正常或閃退 / Something doesn't work or the app crashes
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Issue 是公開的，請不要貼 Wi‑Fi 密碼、相機完整序號或其他個資。
+        Issues are public: don't paste Wi‑Fi passwords, full camera serial numbers or other personal data.
+  - type: input
+    id: version
+    attributes:
+      label: AeroZ 版本 / AeroZ version
+      description: 首頁左上角 / Top left of the home screen
+      placeholder: "92.03.08"
+    validations:
+      required: true
+  - type: input
+    id: phone
+    attributes:
+      label: 手機型號與 Android 版本 / Phone and Android version
+      placeholder: "Pixel 10 Pro, Android 17"
+    validations:
+      required: true
+  - type: input
+    id: camera
+    attributes:
+      label: 相機型號與韌體 / Camera model and firmware
+      placeholder: "Nikon Zf, V3.00"
+    validations:
+      required: true
+  - type: dropdown
+    id: connection
+    attributes:
+      label: 連線方式 / Connection
+      multiple: true
+      options:
+        - 藍牙 / Bluetooth
+        - 一鍵連線 / One-tap camera Wi‑Fi
+        - 手機熱點 / Phone hotspot
+        - 同一個 Wi‑Fi / Same Wi‑Fi network
+        - USB
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: 怎麼操作 / Steps
+      placeholder: |
+        1.
+        2.
+        3.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: 預期結果與實際結果 / Expected vs. actual
+    validations:
+      required: true
+  - type: textarea
+    id: diag
+    attributes:
+      label: 診斷資訊 / Diagnostics
+      description: 設定 → 支援 →「複製診斷資訊」，貼在這裡 / Settings → Support → Copy diagnostics, then paste here
+      render: text

@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 使用手冊 / User manual
+    url: https://github.com/AeroCam-Group/AeroCam-Releases/blob/main/manual/README.md
+    about: 先看常見問題 / Check the FAQ first
