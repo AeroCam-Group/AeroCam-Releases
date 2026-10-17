@@ -10,7 +10,7 @@ body:
   - type: input
     id: version
     attributes:
-      label: AeroZ 版本 / AeroZ version
+      label: AeroCam 版本 / AeroCam version
       description: 首頁左上角 / Top left of the home screen
       placeholder: "92.03.08"
     validations:

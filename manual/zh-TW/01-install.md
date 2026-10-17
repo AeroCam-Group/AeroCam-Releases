@@ -5,9 +5,11 @@
 - Nikon Z 系列相機（藍牙、Wi‑Fi 或 USB 其中一種）。
 
 ## 安裝
-1. 到 [Releases](https://github.com/AeroCam-Group/AeroCam-Releases/releases/latest) 下載 `AeroZ-Beta-xx.xx.xx.apk`。
+1. 到 [Releases](https://github.com/AeroCam-Group/AeroCam-Releases/releases/latest) 下載最新的 Beta APK（`…-Beta-xx.xx.xx.apk`）。
 2. 在手機上打開 APK。第一次會要求允許「安裝未知應用程式」，請允許。
 3. 之後有新版本，直接下載安裝就能覆蓋更新，配對和設定都會保留。
+
+> 用過舊的 **AeroZ Beta**：AeroCam 會裝成另一個 App，要重新配對相機、重新輸入測試金鑰，確認沒問題再移除 AeroZ Beta。
 
 > 只從 AeroCam-Releases 下載。其他地方的 APK 可能被改過。
 

@@ -1,10 +1,12 @@
-# AeroZ Beta
+# AeroCam Beta
 
-AeroZ 讓 Nikon Z 相機的照片直接傳到 Android 手機。這裡發佈的是 **AeroZ Beta 公開測試版**，Pro 和 Cine 的全部功能都可以免費試用。
+AeroCam（原名 AeroZ）讓相機的照片直接傳到 Android 手機，也能用手機遙控相機。目前支援 Nikon Z 系列。這裡發佈的是 **AeroCam Beta 公開測試版**，Pro 和 Cine 的全部功能都可以免費試用。
+
+> **從 AeroZ Beta 升級的人請注意**：92.03.09 起 App 改名為 AeroCam，套件名稱也改了，所以會**裝成一個新的 App**，不會覆蓋舊的 AeroZ Beta。裝好後請重新配對相機、重新輸入測試金鑰，確認沒問題再移除舊的 AeroZ Beta。舊版存的照片仍在 `Pictures/AeroZ`，新版存在 `Pictures/AeroCam`。
 
 ## 下載與安裝
 
-1. 到 [Releases](../../releases/latest) 下載 `AeroZ-Beta-xx.xx.xx.apk`。
+1. 到 [Releases](../../releases/latest) 下載最新的 Beta APK（`…-Beta-xx.xx.xx.apk`）。
 2. 在手機上打開 APK。第一次安裝時，Android 會要求允許「安裝未知應用程式」，請允許。
 3. 之後有新版本時，直接下載安裝即可覆蓋更新，配對和設定都會保留。
 
@@ -22,7 +24,7 @@ AZB1-Q0lORXxwdWJsaWMtMjAyNjEwMTR8MjAyNjEwMTR8MjAyNjEwMjc.MEUCIH2c8XBd50mGuYG_7sC
 ```
 <!-- /BETA-KEY -->
 
-**怎麼輸入**：AeroZ Beta → 設定 → 支援 →「輸入測試金鑰」，貼上整串文字。在上鎖的功能點下去，對話框裡也有「輸入測試金鑰」。
+**怎麼輸入**：AeroCam Beta → 設定 → 支援 →「輸入測試金鑰」，貼上整串文字。在上鎖的功能點下去，對話框裡也有「輸入測試金鑰」。
 
 - 每組金鑰有效 14 天，**每週一換新**。過期後回到這裡複製新的金鑰即可，前後兩組會重疊一週。
 - 金鑰在手機上驗證，不會傳出任何資料。

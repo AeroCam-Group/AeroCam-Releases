@@ -27,7 +27,10 @@
 相機的 AF 區域要選可以移動的模式（例如單點）。自動區域模式下由相機決定。
 
 **照片存到哪裡**
-照片在 `Pictures/AeroZ`、影片在 `Movies/AeroZ`，其他檔案在 `Download/AeroZ`。Google 相簿等 App 也看得到。
+照片在 `Pictures/AeroCam`、影片在 `Movies/AeroCam`，其他檔案在 `Download/AeroCam`。Google 相簿等 App 也看得到。舊版 AeroZ 存的檔案還在 `AeroZ` 資料夾。
+
+**更新後找不到相機、測試金鑰不見了**
+92.03.09 起 App 改名為 AeroCam，會裝成新的 App，資料不會從舊的 AeroZ Beta 帶過來。請重新配對相機、重新輸入測試金鑰。
 
 **手機上刪了照片，想重新傳**
 直接再傳一次，App 會發現手機上的檔案已經不在。

@@ -3,7 +3,7 @@
 ## 自動接收（Pro）
 在相機上選照片「傳送到電腦」，或拍完自動傳，照片就存到手機。
 - 首頁 Wi‑Fi 區塊 →「開始接收」。
-- 存放位置：照片 `Pictures/AeroZ`、影片 `Movies/AeroZ`。資料夾和檔名規則在[設定](04-settings.md)改。
+- 存放位置：照片 `Pictures/AeroCam`、影片 `Movies/AeroCam`。資料夾和檔名規則在[設定](04-settings.md)改。
 - 可以只收 JPG、JPG＋RAW、照片＋影片等。
 
 📷 截圖：接收中的狀態
