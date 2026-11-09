@@ -17,10 +17,10 @@ AeroCam（原名 AeroZ）讓相機的照片直接傳到 Android 手機，也能�
 Beta 預設是**免費版**（藍牙傳輸、用 USB 手動挑選並下載原圖）。輸入下面的測試金鑰，就能開啟 **Pro 和 Cine 的全部功能**。
 
 <!-- BETA-KEY -->
-**目前的測試金鑰**（有效到 **2026-11-15**，含當天）：
+**目前的測試金鑰**（有效到 **2026-11-22**，含當天）：
 
 ```
-AZB1-Q0lORXxwdWJsaWMtMjAyNjExMDJ8MjAyNjExMDJ8MjAyNjExMTU.MEYCIQCF_15ZWDgiix4HV_IE3i9C0y5IiVmuurD0x4eCYwg_bQIhAMYXJAeITktzqyZj0VGTTqzqD3zRV-TCL1GLqCU7vi-_
+AZB1-Q0lORXxwdWJsaWMtMjAyNjExMDl8MjAyNjExMDl8MjAyNjExMjI.MEUCIQDopY2ZJyqIMEqUja327AfWJcNqqf869SCkwJgXA9rC7QIgdBqFzQVtAENn164t1ULrYh5nccazeinxSyTBLlrgBwE
 ```
 <!-- /BETA-KEY -->
 
