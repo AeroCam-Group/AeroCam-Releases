@@ -35,7 +35,7 @@ AZB1-Q0lORXxwdWJsaWMtMjAyNjExMDl8MjAyNjExMDl8MjAyNjExMjI.MEUCIQDopY2ZJyqIMEqUja3
 
 ## คู่มือการใช้งาน
 
-[คู่มือการใช้งาน](https://github.com/AeroCam-Group/AeroCam-Releases/blob/main/manual/zh-TW/README.md) (ปัจจุบันมีเฉพาะภาษาจีนตัวเต็ม): การติดตั้ง การเชื่อมต่อกล้อง ฟีเจอร์ทั้งหมด การตั้งค่าแต่ละรายการ และคำถามที่พบบ่อย
+[คู่มือการใช้งาน](https://github.com/AeroCam-Group/AeroCam-Releases/blob/main/manual/en/README.md) (ฉบับภาษาไทยกำลังจัดทำ ตอนนี้เป็นภาษาอังกฤษ): การติดตั้ง การเชื่อมต่อกล้อง ฟีเจอร์ทั้งหมด การตั้งค่าแต่ละรายการ และคำถามที่พบบ่อย
 
 ## แจ้งปัญหา
 

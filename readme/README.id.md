@@ -35,7 +35,7 @@ Saat versi lengkap dirilis, Beta akan berhenti mendapatkan pembaruan. Setelah ku
 
 ## Panduan pengguna
 
-[Panduan pengguna](https://github.com/AeroCam-Group/AeroCam-Releases/blob/main/manual/zh-TW/README.md) (saat ini hanya dalam bahasa Mandarin Tradisional): pemasangan, menghubungkan kamera, setiap fitur, setiap pengaturan, dan FAQ.
+[Panduan pengguna](https://github.com/AeroCam-Group/AeroCam-Releases/blob/main/manual/id/README.md): pemasangan, menghubungkan kamera, setiap fitur, setiap pengaturan, dan FAQ.
 
 ## Laporkan masalah
 

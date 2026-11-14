@@ -35,7 +35,7 @@ AZB1-Q0lORXxwdWJsaWMtMjAyNjExMDl8MjAyNjExMDl8MjAyNjExMjI.MEUCIQDopY2ZJyqIMEqUja3
 
 ## 사용 설명서
 
-[사용 설명서](https://github.com/AeroCam-Group/AeroCam-Releases/blob/main/manual/zh-TW/README.md) (현재 번체 중국어만 제공): 설치 방법, 카메라 연결, 모든 기능, 각 설정 안내 및 자주 묻는 질문.
+[사용 설명서](https://github.com/AeroCam-Group/AeroCam-Releases/blob/main/manual/ko/README.md): 설치 방법, 카메라 연결, 모든 기능, 각 설정 안내 및 자주 묻는 질문.
 
 ## 문제 신고
 

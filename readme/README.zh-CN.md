@@ -35,7 +35,7 @@ AZB1-Q0lORXxwdWJsaWMtMjAyNjExMDl8MjAyNjExMDl8MjAyNjExMjI.MEUCIQDopY2ZJyqIMEqUja3
 
 ## 使用手册
 
-[使用手册](https://github.com/AeroCam-Group/AeroCam-Releases/blob/main/manual/zh-TW/README.md)（目前仅提供繁体中文版）：安装指南、连接相机、各项功能、每项设置说明及常见问题。
+[使用手册](https://github.com/AeroCam-Group/AeroCam-Releases/blob/main/manual/zh-CN/README.md)：安装指南、连接相机、各项功能、每项设置说明及常见问题。
 
 ## 报告问题
 

@@ -35,7 +35,7 @@ Cuando se lance la versión completa, la Beta dejará de recibir actualizaciones
 
 ## Manual de usuario
 
-[Manual de usuario](https://github.com/AeroCam-Group/AeroCam-Releases/blob/main/manual/zh-TW/README.md) (actualmente solo en chino tradicional): instalación, conexión de una cámara, todas las funciones, cada ajuste y preguntas frecuentes.
+[Manual de usuario](https://github.com/AeroCam-Group/AeroCam-Releases/blob/main/manual/es/README.md): instalación, conexión de una cámara, todas las funciones, cada ajuste y preguntas frecuentes.
 
 ## Informar de un problema
 

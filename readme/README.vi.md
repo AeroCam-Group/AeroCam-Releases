@@ -35,7 +35,7 @@ Khi phiên bản chính thức ra mắt, bản Beta sẽ ngừng nhận cập nh
 
 ## Hướng dẫn sử dụng
 
-[Hướng dẫn sử dụng](https://github.com/AeroCam-Group/AeroCam-Releases/blob/main/manual/zh-TW/README.md) (hiện chỉ có tiếng Trung phồn thể): cài đặt, kết nối máy ảnh, từng tính năng, từng mục cài đặt và câu hỏi thường gặp.
+[Hướng dẫn sử dụng](https://github.com/AeroCam-Group/AeroCam-Releases/blob/main/manual/vi/README.md): cài đặt, kết nối máy ảnh, từng tính năng, từng mục cài đặt và câu hỏi thường gặp.
 
 ## Báo cáo sự cố
 

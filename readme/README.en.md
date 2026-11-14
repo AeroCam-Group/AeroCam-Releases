@@ -35,7 +35,7 @@ When the full version is released, the Beta stops getting updates. After the las
 
 ## User manual
 
-[User manual](https://github.com/AeroCam-Group/AeroCam-Releases/blob/main/manual/zh-TW/README.md) (currently in Traditional Chinese only): installing, connecting a camera, every feature, each setting, and FAQ.
+[User manual](https://github.com/AeroCam-Group/AeroCam-Releases/blob/main/manual/en/README.md): installing, connecting a camera, every feature, each setting, and FAQ.
 
 ## Report a problem
 
