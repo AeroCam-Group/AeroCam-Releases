@@ -35,7 +35,7 @@ AZB1-Q0lORXxwdWJsaWMtMjAyNjExMDl8MjAyNjExMDl8MjAyNjExMjI.MEUCIQDopY2ZJyqIMEqUja3
 
 ## 使用手冊
 
-[使用手冊（繁體中文）](manual/zh-TW/README.md)：安裝、連接相機、各功能、設定逐項說明、常見問題。
+[使用手冊（繁體中文）](manual/zh-TW/README.md)：安裝、連接相機、自動接收、相簿、遠端拍攝、照片編輯與風格、設定逐項說明、FTP、隱私與匿名統計、常見問題。
 
 ## 回報問題
 
