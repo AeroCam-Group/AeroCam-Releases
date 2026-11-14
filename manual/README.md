@@ -12,7 +12,7 @@
 | Español | [es](es/README.md) |
 | Tiếng Việt | [vi](vi/README.md) |
 | Bahasa Indonesia | [id](id/README.md) |
-| ไทย | Coming soon（暫時請看 [English](en/README.md)） |
+| ไทย | [th](th/README.md) |
 
 繁體中文是原文，其他語言由它翻譯；內容如有不同，以繁體中文為準。每份翻譯第一行記錄是從哪個版本翻的。
 
