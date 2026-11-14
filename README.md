@@ -1,8 +1,8 @@
+**繁體中文** | [English](readme/README.en.md) | [日本語](readme/README.ja.md) | [简体中文](readme/README.zh-CN.md) | [한국어](readme/README.ko.md) | [Deutsch](readme/README.de.md) | [Français](readme/README.fr.md) | [Español](readme/README.es.md) | [Tiếng Việt](readme/README.vi.md) | [ไทย](readme/README.th.md) | [Bahasa Indonesia](readme/README.id.md)
+
 # AeroCam Beta
 
-AeroCam（原名 AeroZ）讓相機的照片直接傳到 Android 手機，也能用手機遙控相機。目前支援 Nikon Z 系列。這裡發佈的是 **AeroCam Beta 公開測試版**，Pro 和 Cine 的全部功能都可以免費試用。
-
-> **從 AeroZ Beta 升級的人請注意**：92.03.09 起 App 改名為 AeroCam，套件名稱也改了，所以會**裝成一個新的 App**，不會覆蓋舊的 AeroZ Beta。裝好後請重新配對相機、重新輸入測試金鑰，確認沒問題再移除舊的 AeroZ Beta。舊版存的照片仍在 `Pictures/AeroZ`，新版存在 `Pictures/AeroCam`。
+AeroCam 讓相機的照片直接傳到 Android 手機，也能用手機遙控相機。目前支援 Nikon Z 系列。這裡發佈的是 **AeroCam Beta 公開測試版**，Pro 和 Cine 的全部功能都可以免費試用。
 
 ## 下載與安裝
 
