@@ -16,7 +16,13 @@ AeroCam ส่งภาพถ่ายจากกล้องไปยังโ
 
 เวอร์ชัน Beta เริ่มต้นเป็น**เวอร์ชันฟรี** (การโอนถ่ายผ่าน Bluetooth และการเลือกดาวน์โหลดไฟล์ต้นฉบับด้วยตนเองผ่าน USB) กรอกคีย์ทดสอบเพื่อปลดล็อก**ฟีเจอร์ Pro และ Cine ทั้งหมด**
 
-**คีย์ทดสอบปัจจุบัน**อยู่ใน [beta-key.txt](https://github.com/AeroCam-Group/AeroCam-Releases/blob/main/beta-key.txt): คัดลอกข้อความทั้งหมดในบรรทัดแรก บรรทัดที่สองจะระบุวันที่คีย์หมดอายุ
+<!-- BETA-KEY -->
+**คีย์ทดสอบปัจจุบัน** (ใช้ได้ถึง **2026-11-22** รวมวันนั้นด้วย):
+
+```
+AZB1-Q0lORXxwdWJsaWMtMjAyNjExMDl8MjAyNjExMDl8MjAyNjExMjI.MEUCIQDopY2ZJyqIMEqUja327AfWJcNqqf869SCkwJgXA9rC7QIgdBqFzQVtAENn164t1ULrYh5nccazeinxSyTBLlrgBwE
+```
+<!-- /BETA-KEY -->
 
 **วิธีกรอกคีย์**: AeroCam Beta → ตั้งค่า → ช่วยเหลือ → "กรอกคีย์ทดสอบ" จากนั้นวางข้อความทั้งหมด การแตะที่ฟีเจอร์ที่ถูกล็อกอยู่จะแสดงปุ่ม "กรอกคีย์ทดสอบ" ในหน้าต่างแจ้งเตือนเช่นกัน
 

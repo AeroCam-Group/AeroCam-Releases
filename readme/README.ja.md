@@ -16,7 +16,13 @@ Android 10 以降が必要です。
 
 Beta は初期状態では**無料版**（Bluetooth 転送、および USB 経由での手動選択によるオリジナル画像のダウンロード）です。テストキーを入力すると、**Pro と Cine のすべての機能**がロック解除されます。
 
-**現在のテストキー**は [beta-key.txt](https://github.com/AeroCam-Group/AeroCam-Releases/blob/main/beta-key.txt) にあります。1 行目全体をコピーしてください。2 行目には有効期限が記載されています。
+<!-- BETA-KEY -->
+**現在のテストキー**（**2026-11-22** まで有効、当日を含む）：
+
+```
+AZB1-Q0lORXxwdWJsaWMtMjAyNjExMDl8MjAyNjExMDl8MjAyNjExMjI.MEUCIQDopY2ZJyqIMEqUja327AfWJcNqqf869SCkwJgXA9rC7QIgdBqFzQVtAENn164t1ULrYh5nccazeinxSyTBLlrgBwE
+```
+<!-- /BETA-KEY -->
 
 **入力方法**：AeroCam Beta → 設定 → サポート →「テストキーを入力」から、テキスト全体を貼り付けます。ロックされた機能をタップした際に表示されるダイアログにも「テストキーを入力」があります。
 

@@ -16,7 +16,13 @@ Memerlukan Android 10 atau yang lebih baru.
 
 Beta dimulai sebagai **versi gratis** (transfer Bluetooth, serta memilih dan mengunduh file asli secara manual melalui USB). Masukkan kunci uji untuk membuka **semua fitur Pro dan Cine**.
 
-**Kunci uji saat ini** ada di [beta-key.txt](https://github.com/AeroCam-Group/AeroCam-Releases/blob/main/beta-key.txt): salin seluruh baris pertama. Baris kedua menunjukkan masa berlaku kunci tersebut.
+<!-- BETA-KEY -->
+**Kunci uji saat ini** (berlaku sampai **2026-11-22**, termasuk hari itu):
+
+```
+AZB1-Q0lORXxwdWJsaWMtMjAyNjExMDl8MjAyNjExMDl8MjAyNjExMjI.MEUCIQDopY2ZJyqIMEqUja327AfWJcNqqf869SCkwJgXA9rC7QIgdBqFzQVtAENn164t1ULrYh5nccazeinxSyTBLlrgBwE
+```
+<!-- /BETA-KEY -->
 
 **Cara memasukkannya**: AeroCam Beta → Pengaturan → Dukungan → "Masukkan kunci uji", lalu tempel seluruh teks. Mengetuk fitur yang terkunci juga akan menampilkan "Masukkan kunci uji" di dialognya.
 

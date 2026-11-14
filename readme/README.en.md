@@ -16,7 +16,13 @@ Requires Android 10 or later.
 
 The Beta starts as the **Free tier** (Bluetooth transfer, and picking and downloading originals by hand over USB). Enter the test key to unlock **every Pro and Cine feature**.
 
-**The current test key** is in [beta-key.txt](https://github.com/AeroCam-Group/AeroCam-Releases/blob/main/beta-key.txt): copy the whole first line. The second line says until when it is valid.
+<!-- BETA-KEY -->
+**The current test key** (valid until **2026-11-22**, inclusive):
+
+```
+AZB1-Q0lORXxwdWJsaWMtMjAyNjExMDl8MjAyNjExMDl8MjAyNjExMjI.MEUCIQDopY2ZJyqIMEqUja327AfWJcNqqf869SCkwJgXA9rC7QIgdBqFzQVtAENn164t1ULrYh5nccazeinxSyTBLlrgBwE
+```
+<!-- /BETA-KEY -->
 
 **How to enter it**: AeroCam Beta → Settings → Support → "Enter test key", then paste the whole text. Tapping a locked feature also shows "Enter test key" in its dialog.
 

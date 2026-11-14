@@ -16,7 +16,13 @@ Android 10 이상이 필요합니다.
 
 Beta는 기본적으로 **무료 버전**(블루투스 전송 및 USB를 통한 수동 원본 선택 다운로드)으로 시작됩니다. 테스트 키를 입력하면 **Pro 및 Cine의 모든 기능**이 잠금 해제됩니다.
 
-**현재 테스트 키**는 [beta-key.txt](https://github.com/AeroCam-Group/AeroCam-Releases/blob/main/beta-key.txt)에 있습니다. 첫 번째 줄 전체를 복사하세요. 두 번째 줄에는 유효 기간이 표시되어 있습니다.
+<!-- BETA-KEY -->
+**현재 테스트 키** (**2026-11-22**까지 유효, 당일 포함):
+
+```
+AZB1-Q0lORXxwdWJsaWMtMjAyNjExMDl8MjAyNjExMDl8MjAyNjExMjI.MEUCIQDopY2ZJyqIMEqUja327AfWJcNqqf869SCkwJgXA9rC7QIgdBqFzQVtAENn164t1ULrYh5nccazeinxSyTBLlrgBwE
+```
+<!-- /BETA-KEY -->
 
 **입력 방법**: AeroCam Beta → 설정 → 지원 → "테스트 키 입력"을 누른 뒤 전체 텍스트를 붙여넣습니다. 잠긴 기능을 탭해도 안내 대화상자에 "테스트 키 입력"이 표시됩니다.
 

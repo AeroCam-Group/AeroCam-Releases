@@ -16,7 +16,13 @@ AeroCam 可以将相机拍摄的照片直接发送到 Android 手机，也能通
 
 Beta 默认为**免费版**（蓝牙传输，以及通过 USB 手动挑选并下载原图）。输入测试密钥即可解锁 **Pro 和 Cine 的全部功能**。
 
-**当前测试密钥**位于 [beta-key.txt](https://github.com/AeroCam-Group/AeroCam-Releases/blob/main/beta-key.txt)：请复制完整的第 1 行内容。第 2 行说明了该密钥的有效截止日期。
+<!-- BETA-KEY -->
+**当前的测试密钥**（有效期至 **2026-11-22**，含当天）：
+
+```
+AZB1-Q0lORXxwdWJsaWMtMjAyNjExMDl8MjAyNjExMDl8MjAyNjExMjI.MEUCIQDopY2ZJyqIMEqUja327AfWJcNqqf869SCkwJgXA9rC7QIgdBqFzQVtAENn164t1ULrYh5nccazeinxSyTBLlrgBwE
+```
+<!-- /BETA-KEY -->
 
 **输入方式**：AeroCam Beta → 设置 → 支持 →“输入测试密钥”，然后粘贴整段文本。点击已锁定的功能时，弹出的对话框中也会显示“输入测试密钥”。
 

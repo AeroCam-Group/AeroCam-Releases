@@ -16,7 +16,13 @@ Erfordert Android 10 oder neuer.
 
 Die Beta startet in der **kostenlosen Version** (Bluetooth-Übertragung sowie manuelles Auswählen und Herunterladen von Originaldateien per USB). Geben Sie den Testschlüssel ein, um **alle Pro- und Cine-Funktionen** freizuschalten.
 
-**Der aktuelle Testschlüssel** befindet sich in [beta-key.txt](https://github.com/AeroCam-Group/AeroCam-Releases/blob/main/beta-key.txt): Kopieren Sie die gesamte erste Zeile. In der zweiten Zeile steht, bis wann der Schlüssel gültig ist.
+<!-- BETA-KEY -->
+**Der aktuelle Testschlüssel** (gültig bis einschließlich **2026-11-22**):
+
+```
+AZB1-Q0lORXxwdWJsaWMtMjAyNjExMDl8MjAyNjExMDl8MjAyNjExMjI.MEUCIQDopY2ZJyqIMEqUja327AfWJcNqqf869SCkwJgXA9rC7QIgdBqFzQVtAENn164t1ULrYh5nccazeinxSyTBLlrgBwE
+```
+<!-- /BETA-KEY -->
 
 **So geben Sie ihn ein**: AeroCam Beta → Einstellungen → Support → „Testschlüssel eingeben“ und dann den gesamten Text einfügen. Wenn Sie auf eine gesperrte Funktion tippen, erscheint im Dialogfenster ebenfalls „Testschlüssel eingeben“.
 

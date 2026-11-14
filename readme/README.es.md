@@ -16,7 +16,13 @@ Requiere Android 10 o posterior.
 
 La Beta comienza como la **versión gratuita** (transferencia por Bluetooth, y selección y descarga manual de originales por USB). Introduce la clave de prueba para desbloquear **todas las funciones Pro y Cine**.
 
-**La clave de prueba actual** está en [beta-key.txt](https://github.com/AeroCam-Group/AeroCam-Releases/blob/main/beta-key.txt): copia toda la primera línea. La segunda línea indica hasta cuándo es válida.
+<!-- BETA-KEY -->
+**La clave de prueba actual** (válida hasta el **2026-11-22**, incluido):
+
+```
+AZB1-Q0lORXxwdWJsaWMtMjAyNjExMDl8MjAyNjExMDl8MjAyNjExMjI.MEUCIQDopY2ZJyqIMEqUja327AfWJcNqqf869SCkwJgXA9rC7QIgdBqFzQVtAENn164t1ULrYh5nccazeinxSyTBLlrgBwE
+```
+<!-- /BETA-KEY -->
 
 **Cómo introducirla**: AeroCam Beta → Ajustes → Soporte → «Introducir clave de prueba», y pega todo el texto. Al tocar una función bloqueada también aparece «Introducir clave de prueba» en su cuadro de diálogo.
 

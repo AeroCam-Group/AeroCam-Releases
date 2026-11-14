@@ -16,7 +16,13 @@ Yêu cầu Android 10 trở lên.
 
 Bản Beta bắt đầu ở **gói miễn phí** (truyền qua Bluetooth, cũng như chọn và tải ảnh gốc thủ công qua USB). Nhập khóa thử nghiệm để mở khóa **toàn bộ tính năng Pro và Cine**.
 
-**Khóa thử nghiệm hiện tại** nằm trong [beta-key.txt](https://github.com/AeroCam-Group/AeroCam-Releases/blob/main/beta-key.txt): hãy sao chép toàn bộ dòng đầu tiên. Dòng thứ hai cho biết thời hạn hiệu lực của khóa.
+<!-- BETA-KEY -->
+**Khóa thử nghiệm hiện tại** (có hiệu lực đến hết ngày **2026-11-22**):
+
+```
+AZB1-Q0lORXxwdWJsaWMtMjAyNjExMDl8MjAyNjExMDl8MjAyNjExMjI.MEUCIQDopY2ZJyqIMEqUja327AfWJcNqqf869SCkwJgXA9rC7QIgdBqFzQVtAENn164t1ULrYh5nccazeinxSyTBLlrgBwE
+```
+<!-- /BETA-KEY -->
 
 **Cách nhập**: AeroCam Beta → Cài đặt → Hỗ trợ → "Nhập khóa thử nghiệm", sau đó dán toàn bộ nội dung vừa sao chép. Khi chạm vào một tính năng bị khóa, hộp thoại hiện ra cũng có nút "Nhập khóa thử nghiệm".
 
