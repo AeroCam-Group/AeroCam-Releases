@@ -1,11 +1,11 @@
 {
   "beta": {
-    "version": "92.04.08.10",
-    "code": 40810,
-    "url": "https://github.com/AeroCam-Group/AeroCam-Releases/releases/download/beta-92.04.08.10/AeroCam-Beta-92.04.08.10.apk",
-    "sha256": "090b6a11fffb92ca35e0a46a2d1fca194bf058191df4e93d0d590a44f0cf8362",
+    "version": "92.04.08.19",
+    "code": 40819,
+    "url": "https://github.com/AeroCam-Group/AeroCam-Releases/releases/download/beta-92.04.08.19/AeroCam-Beta-92.04.08.19.apk",
+    "sha256": "bfc4922b20ff9b591e42b599e50fc5ac53aa267622018250fc7dfc37e53b7658",
     "notes": "",
-    "published": "2026-11-14",
+    "published": "2026-11-15",
     "ended": false
   },
   "revoked_keys": []
