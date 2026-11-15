@@ -1,0 +1,231 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AeroCam: your Nikon's photos, straight to your phone</title>
+<meta name="description" content="A free Android app for Nikon cameras: auto-transfer, remote shooting, and shooting with no memory card. Nikon Z and older DSLRs like the D750.">
+<meta property="og:title" content="AeroCam: your Nikon's photos, straight to your phone">
+<meta property="og:description" content="Free Android app for Nikon Z cameras and older DSLRs. Auto-transfer, remote shooting, shooting with no memory card.">
+<meta property="og:image" content="img/hero.jpg">
+<meta name="theme-color" content="#111110">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%23111110'/%3E%3Ccircle cx='16' cy='17' r='7' fill='none' stroke='%23F2B705' stroke-width='3'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap">
+<style>
+:root{--bg:#111110;--panel:#1A1A18;--line:#33332F;--line2:#3A3A36;--text:#F0EFEC;--muted:#C9C8C2;--dim:#9C9B95;--accent:#F2B705;--note-bg:#2A2410;--note:#F5D77A;--pad:clamp(20px,5vw,32px);--sec:clamp(56px,8vw,96px)}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--text);font-family:Inter,'Noto Sans TC','Noto Sans JP','Noto Sans SC','Noto Sans KR','Noto Sans Thai',system-ui,sans-serif;font-size:17px;line-height:1.65;overflow-x:hidden}
+a{color:var(--accent)}a:hover{color:#FFD24D}
+h1,h2,h3{font-family:'Space Grotesk',Inter,'Noto Sans TC','Noto Sans JP',sans-serif;margin:0}
+h1{font-size:clamp(36px,7vw,60px);line-height:1.1}
+h2{font-size:clamp(28px,5vw,42px);line-height:1.15}
+p{margin:0}
+img{max-width:100%}
+.wrap{max-width:1200px;margin:0 auto;padding:0 var(--pad)}
+.sec{padding:var(--sec) 0}
+.alt{background:var(--panel)}
+.row{display:flex;flex-wrap:wrap;gap:clamp(32px,5vw,56px)}
+.col{flex:1 1 400px;min-width:0}
+.kicker{color:var(--accent);font-weight:600;font-size:15px;letter-spacing:.04em;margin-bottom:12px}
+.lead{color:var(--muted)}
+.small{color:var(--dim);font-size:15px}
+.note{padding:12px 16px;border-radius:12px;background:var(--note-bg);color:var(--note);font-size:15px}
+.btn{display:inline-flex;align-items:center;min-height:52px;padding:0 28px;border-radius:999px;background:var(--accent);color:#111110;font-weight:700;text-decoration:none;border:none;font:inherit;font-weight:700;cursor:pointer}
+.btn:hover{color:#111110;background:#FFC93A}
+.btn2{display:inline-flex;align-items:center;min-height:52px;padding:0 24px;border-radius:999px;border:1px solid #4A4945;color:var(--text);background:transparent;font:inherit;font-weight:600;text-decoration:none;cursor:pointer}
+.btn2:hover{color:var(--text);border-color:#6A6964}
+.phone{border-radius:22px;border:6px solid #2C2C2A;height:auto;display:block}
+.grid{display:grid;gap:28px;grid-template-columns:repeat(auto-fit,minmax(min(100%,300px),1fr))}
+header{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:12px 16px;padding-top:20px;padding-bottom:20px}
+.logo{font-family:'Space Grotesk',Inter,sans-serif;font-weight:700;font-size:24px;color:var(--text);text-decoration:none}
+nav{display:flex;flex-wrap:wrap;align-items:center;gap:8px 20px;font-size:15px}
+nav a{color:var(--muted);text-decoration:none}
+nav a.dl{color:var(--accent);font-weight:600}
+select,input,textarea{font:inherit;font-size:16px;color:var(--text);background:var(--panel);border:1px solid var(--line2);border-radius:12px}
+select{min-height:44px;padding:0 12px}
+input{min-height:44px;padding:0 14px}
+textarea{padding:12px 14px;resize:vertical}
+.lang{display:flex;align-items:center;gap:8px;color:var(--muted);font-size:14px}
+.lang select{border-radius:999px;font-size:14px}
+.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}
+.card{background:var(--panel);border-radius:24px;padding:clamp(20px,4vw,28px);display:flex;flex-direction:column;gap:12px}
+.card h3{font-size:23px}
+.card .phone{margin-top:auto;width:78%;max-width:300px;align-self:center}
+.cams{border:1px solid var(--line);border-radius:20px;padding:24px}
+.cams h3{font-size:18px;margin-bottom:6px}
+.tested{border:2px solid var(--accent);border-radius:20px;padding:24px;margin-bottom:24px}
+.more h3{font-size:18px;color:var(--accent);margin-bottom:10px;font-family:Inter,sans-serif}
+.more{border-top:1px solid var(--line);padding-top:20px}
+ul,ol{margin:0;padding-left:22px;color:var(--muted);display:flex;flex-direction:column;gap:6px}
+details{border:1px solid var(--line);border-radius:16px;padding:4px 20px}
+summary{min-height:48px;display:flex;align-items:center;cursor:pointer;font-weight:600}
+details p{margin:0 0 16px;color:var(--muted);font-size:16px}
+form{flex:1 1 480px;min-width:0;display:flex;flex-direction:column;gap:18px;background:var(--bg);border:1px solid var(--line);border-radius:24px;padding:clamp(20px,4vw,28px)}
+label.f{display:flex;flex-direction:column;gap:6px;font-size:14px;color:var(--muted)}
+.pill{min-height:44px;min-width:44px;padding:0 16px;border-radius:999px;border:1px solid var(--line2);background:var(--panel);color:var(--muted);font:inherit;font-size:14px;font-weight:600;cursor:pointer}
+.pill[aria-pressed="true"]{background:var(--accent);border-color:var(--accent);color:#111110}
+footer{border-top:1px solid #2C2C2A;color:#8C8B85;font-size:14px;padding:40px var(--pad) 56px;max-width:1200px;margin:0 auto}
+</style>
+</head>
+<body>
+<div id="app"></div>
+<noscript><p style="padding:24px">AeroCam: free Android app for Nikon cameras. Download: <a href="https://github.com/AeroCam-Group/AeroCam-Releases">github.com/AeroCam-Group/AeroCam-Releases</a></p></noscript>
+<script src="i18n.js"></script>
+<script>
+(function () {
+  var T = window.AEROCAM_T;
+  var GH = 'https://github.com/AeroCam-Group/AeroCam-Releases';
+  var MAIL = 'aerocam.lab@gmail.com';
+  var IMG = { roll: 'img/roll.jpg', remote: 'img/remote.jpg', np3: 'img/np3.jpg', qr: 'img/qr.jpg', home: 'img/home.jpg', cams: 'img/cameras.jpg' };
+  var MODELS = {
+    newer: 'Z9 · Z8 · Z6III · Z50II · Z5II · ZR',
+    earlier: 'Z6II · Z7II · Z6 · Z7 · Z5 · Z50 · Zfc · Z30 · D6 · D780',
+    bt: 'D850 · D500 · D7500 · D5600',
+    wifi: 'Df · D7200 · D7100 · D5500 · D5300 · D3300'
+  };
+  var LANGS = [['en', 'English'], ['zh-TW', '繁體中文'], ['zh-CN', '简体中文'], ['ja', '日本語'], ['ko', '한국어'], ['de', 'Deutsch'], ['fr', 'Français'], ['es', 'Español'], ['vi', 'Tiếng Việt'], ['th', 'ไทย'], ['id', 'Bahasa Indonesia']];
+
+  function pickLang() {
+    var q = (location.search.match(/[?&]lang=([\w-]+)/) || [])[1];
+    if (q && T[q]) return q;
+    try { var saved = localStorage.getItem('aerocam.lang'); if (saved && T[saved]) return saved; } catch (e) {}
+    var nav = (navigator.language || 'en').toLowerCase();
+    if (nav.indexOf('zh') === 0) return /cn|hans|sg/.test(nav) ? 'zh-CN' : 'zh-TW';
+    var s = nav.slice(0, 2); if (s === 'in') s = 'id';
+    return T[s] ? s : 'en';
+  }
+
+  var st = { lang: pickLang(), kind: 0, model: '', version: '', phone: '', conn: 0, text: '', copied: false };
+
+  function esc(x) { return String(x).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;'); }
+  function tr() { var t = {}, k; for (k in T.en) t[k] = T.en[k]; var o = T[st.lang] || {}; for (k in o) t[k] = o[k]; return t; }
+  function map(a, f) { return a.map(f).join(''); }
+
+  function mail(t) {
+    var L = t.lab, bug = st.kind === 0;
+    var body = [L.camera + ': ' + st.model];
+    if (bug) body.push(L.version + ': ' + st.version, L.conn + ': ' + t.conns[st.conn], L.phone + ': ' + st.phone);
+    body.push('', L.details + ':', st.text, '');
+    if (bug) body.push(L.log);
+    var subject = t.subj[st.kind] + (st.model ? ' ' + st.model : '');
+    return { subject: subject, body: body.join('\n') };
+  }
+
+  function render() {
+    var t = tr(), bug = st.kind === 0, m = mail(t);
+    document.documentElement.lang = st.lang;
+    var html =
+'<div class="wrap"><header>' +
+  '<a class="logo" href="#top">Aero<span style="color:var(--accent)">Cam</span></a>' +
+  '<nav aria-label="Main">' +
+    '<a href="#features">' + esc(t.navFeatures) + '</a><a href="#cameras">' + esc(t.navCameras) + '</a><a href="#faq">FAQ</a>' +
+    '<a href="#contact">' + esc(t.navContact) + '</a><a class="dl" href="#download">' + esc(t.navDownload) + '</a>' +
+    '<label class="lang"><svg aria-hidden="true" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3a14 14 0 0 1 0 18M12 3a14 14 0 0 0 0 18"/></svg>' +
+    '<span class="sr">Language</span><select id="lang">' + map(LANGS, function (l) { return '<option value="' + l[0] + '"' + (l[0] === st.lang ? ' selected' : '') + '>' + l[1] + '</option>'; }) + '</select></label>' +
+  '</nav></header></div>' +
+
+'<section id="top" class="wrap" style="padding-top:clamp(24px,5vw,48px);padding-bottom:clamp(48px,8vw,80px)"><div class="row" style="align-items:center">' +
+  '<div class="col"><p class="kicker">' + esc(t.kicker) + '</p><h1>' + esc(t.heroTitle) + '</h1>' +
+  '<p class="lead" style="margin-top:24px;font-size:clamp(17px,2.2vw,20px);max-width:36ch">' + esc(t.heroSub) + '</p>' +
+  '<div style="display:flex;flex-wrap:wrap;gap:12px;margin-top:32px"><a class="btn" href="' + GH + '">' + esc(t.ctaDownload) + '</a><a class="btn2" href="#features">' + esc(t.ctaMore) + '</a></div></div>' +
+  '<figure class="col" style="flex-basis:360px;margin:0"><img src="img/hero.jpg" alt="' + esc(t.heroAlt) + '" style="display:block;width:100%;aspect-ratio:4/5;object-fit:cover;border-radius:24px">' +
+  '<figcaption class="small" style="margin-top:12px;font-size:14px">' + esc(t.heroCap) + '</figcaption></figure>' +
+'</div></section>' +
+
+'<section id="nocard" class="sec alt"><div class="wrap row" style="align-items:center">' +
+  '<div class="col"><p class="kicker">' + esc(t.ncKicker) + '</p><h2>' + esc(t.ncTitle) + '</h2>' +
+  '<p class="lead" style="margin-top:20px">' + esc(t.ncP1) + '</p><p class="lead" style="margin-top:16px">' + esc(t.ncP2) + '</p>' +
+  '<p class="small" style="margin-top:16px">' + esc(t.ncP3) + '</p><p class="note" style="margin-top:16px">' + esc(t.ncKey) + '</p></div>' +
+  '<div class="col" style="display:flex;flex-wrap:wrap;gap:20px;justify-content:center">' +
+  '<img class="phone" src="img/nocard-home.jpg" alt="' + esc(t.ncAlt1) + '" style="flex:1 1 200px;max-width:280px;min-width:0" loading="lazy">' +
+  '<img class="phone" src="img/nocard-setting.jpg" alt="' + esc(t.ncAlt2) + '" style="flex:1 1 200px;max-width:280px;min-width:0" loading="lazy"></div>' +
+'</div></section>' +
+
+'<section id="features" class="sec wrap"><h2>' + esc(t.fTitle) + '</h2><p class="lead" style="margin:16px 0 48px;max-width:60ch">' + esc(t.fSub) + '</p><div class="grid">' +
+  map(t.f, function (f) { return '<article class="card"><h3>' + esc(f[0]) + '</h3><p class="lead" style="font-size:16px">' + esc(f[1]) + '</p><img class="phone" src="' + IMG[f[2]] + '" alt="' + esc(f[0]) + '" loading="lazy"></article>'; }) +
+'</div></section>' +
+
+'<section id="cameras" class="sec alt"><div class="wrap"><h2>' + esc(t.cTitle) + '</h2><p class="lead" style="margin:16px 0 40px;max-width:62ch">' + esc(t.cSub) + '</p>' +
+  '<div class="tested"><p class="kicker" style="margin-bottom:6px">' + esc(t.cTested) + '</p><p style="font-size:22px;font-weight:600">Zf · D750</p></div>' +
+  '<p style="color:var(--dim);font-weight:600;font-size:15px;letter-spacing:.04em;margin-bottom:16px">' + esc(t.cUntested) + '</p>' +
+  '<div class="grid" style="gap:20px;grid-template-columns:repeat(auto-fit,minmax(min(100%,260px),1fr))">' +
+  map([[0, MODELS.newer], [1, MODELS.earlier], [2, MODELS.bt + t.btNote], [3, MODELS.wifi]], function (g) {
+    return '<div class="cams"><h3>' + esc(t.g[g[0]][0]) + '</h3><p class="small" style="font-size:14px;margin-bottom:16px">' + esc(t.g[g[0]][1]) + '</p><p style="line-height:1.8;font-size:16px">' + esc(g[1]) + '</p></div>';
+  }) + '</div><p class="small" style="margin-top:28px">' + esc(t.cUsb) + '</p></div></section>' +
+
+'<section id="more" class="sec wrap"><h2 style="font-size:clamp(26px,4.5vw,34px)">' + esc(t.mTitle) + '</h2><p class="lead" style="margin:12px 0 36px;max-width:60ch">' + esc(t.mSub) + '</p>' +
+  '<div class="grid" style="gap:24px 48px">' + map(t.m, function (g) { return '<div class="more"><h3>' + esc(g[0]) + '</h3><ul>' + map(g[1], function (i) { return '<li>' + esc(i) + '</li>'; }) + '</ul></div>'; }) + '</div></section>' +
+
+'<section id="download" class="sec alt"><div class="wrap row">' +
+  '<div class="col"><h2>' + esc(t.dTitle) + '</h2><p class="lead" style="margin-top:16px">' + esc(t.dP1) + '</p><p class="note" style="margin-top:16px">' + esc(t.dFree) + '</p>' +
+  '<a class="btn" style="margin-top:24px" href="' + GH + '">' + esc(t.dBtn) + '</a><p class="small" style="margin-top:20px">' + esc(t.dP2) + '</p></div>' +
+  '<div class="col"><h3 style="font-size:20px;margin-bottom:12px">' + esc(t.dStepsTitle) + '</h3><ol>' + map(t.dSteps, function (s) { return '<li>' + esc(s) + '</li>'; }) + '</ol>' +
+  '<h3 style="font-size:18px;margin:32px 0 8px">' + esc(t.langTitle) + '</h3><p class="lead" style="line-height:1.9;font-size:15px">' + map(LANGS, function (l, i) { return (i ? ' · ' : '') + l[1]; }) + '</p></div>' +
+'</div></section>' +
+
+'<section id="faq" class="sec" style="max-width:900px;margin:0 auto;padding-left:var(--pad);padding-right:var(--pad)"><h2 style="margin-bottom:32px">FAQ</h2><div style="display:flex;flex-direction:column;gap:12px">' +
+  map(t.faq, function (q) { return '<details><summary>' + esc(q[0]) + '</summary><p>' + esc(q[1]) + '</p></details>'; }) + '</div></section>' +
+
+'<section id="contact" class="sec alt"><div class="wrap row">' +
+  '<div class="col" style="flex-basis:340px"><h2>' + esc(t.kTitle) + '</h2><p class="lead" style="margin-top:16px">' + esc(t.kP1) + '</p><p class="lead" style="margin-top:16px">' + esc(t.kP2) + '</p>' +
+  '<p class="small" style="margin-top:24px">' + esc(t.kDirect) + ' <a href="mailto:' + MAIL + '">' + MAIL + '</a></p></div>' +
+  '<form id="form" novalidate><div role="group" aria-label="' + esc(t.kKindLabel) + '" style="display:flex;flex-wrap:wrap;gap:8px">' +
+    map(t.kinds, function (k, i) { return '<button type="button" class="pill" data-kind="' + i + '" aria-pressed="' + (st.kind === i) + '">' + esc(k) + '</button>'; }) + '</div>' +
+    '<label class="f">' + esc(bug ? t.kModel : t.kModelOpt) + '<input id="model" type="text" placeholder="Zf, D750, Z6III…" value="' + esc(st.model) + '"></label>' +
+    (bug ? '<div class="grid" style="gap:16px;grid-template-columns:repeat(auto-fit,minmax(min(100%,200px),1fr))">' +
+      '<label class="f">' + esc(t.kVersion) + '<input id="version" type="text" placeholder="92.04.08.19" value="' + esc(st.version) + '"></label>' +
+      '<label class="f">' + esc(t.kPhone) + '<input id="phone" type="text" placeholder="Pixel 8, Android 15" value="' + esc(st.phone) + '"></label></div>' +
+      '<label class="f">' + esc(t.kConn) + '<select id="conn">' + map(t.conns, function (c, i) { return '<option value="' + i + '"' + (i === st.conn ? ' selected' : '') + '>' + esc(c) + '</option>'; }) + '</select></label>' : '') +
+    '<label class="f">' + esc(t.prompts[st.kind][0]) + '<textarea id="text" rows="5" placeholder="' + esc(t.prompts[st.kind][1]) + '">' + esc(st.text) + '</textarea></label>' +
+    (bug ? '<p class="note">' + esc(t.kLog) + '</p>' : '') +
+    '<div style="display:flex;flex-wrap:wrap;gap:12px;align-items:center"><a id="send" class="btn" href="mailto:' + MAIL + '?subject=' + encodeURIComponent(m.subject) + '&body=' + encodeURIComponent(m.body) + '">' + esc(t.kSend) + '</a>' +
+    '<button type="button" id="copy" class="btn2">' + esc(st.copied ? t.kCopied : t.kCopy) + '</button></div>' +
+    '<p class="small" style="font-size:14px">' + esc(t.kNote) + '</p></form>' +
+'</div></section>' +
+
+'<section id="about" class="sec wrap"><div class="row"><div class="col"><h2>' + esc(t.aTitle) + '</h2><p class="lead" style="margin-top:16px">' + esc(t.aP1) + '</p></div>' +
+  '<div id="privacy" class="col"><h2>' + esc(t.pTitle) + '</h2><p class="lead" style="margin-top:16px">' + esc(t.pP1) + '</p><p class="lead" style="margin-top:16px">' + esc(t.pP2) + '</p></div></div></section>' +
+
+'<footer><p>' + esc(t.footer) + '</p></footer>';
+    document.getElementById('app').innerHTML = html;
+  }
+
+  // Typing updates state and the mail link only, so the field keeps focus.
+  function refreshLink() {
+    var t = tr(), m = mail(t), a = document.getElementById('send');
+    if (a) a.href = 'mailto:' + MAIL + '?subject=' + encodeURIComponent(m.subject) + '&body=' + encodeURIComponent(m.body);
+    var c = document.getElementById('copy');
+    if (c && st.copied) { st.copied = false; c.textContent = t.kCopy; }
+  }
+
+  var app = document.getElementById('app');
+  app.addEventListener('input', function (e) {
+    var id = e.target.id;
+    if (id === 'model' || id === 'version' || id === 'phone' || id === 'text') { st[id] = e.target.value; refreshLink(); }
+  });
+  app.addEventListener('change', function (e) {
+    if (e.target.id === 'lang') {
+      st.lang = e.target.value;
+      try { localStorage.setItem('aerocam.lang', st.lang); } catch (x) {}
+      render();
+    } else if (e.target.id === 'conn') { st.conn = +e.target.value; refreshLink(); }
+  });
+  app.addEventListener('click', function (e) {
+    var k = e.target.closest('[data-kind]');
+    if (k) { st.kind = +k.getAttribute('data-kind'); st.copied = false; render(); return; }
+    if (e.target.id === 'copy') {
+      var t = tr(), m = mail(t), txt = 'To: ' + MAIL + '\n' + m.subject + '\n\n' + m.body;
+      var done = function () { st.copied = true; e.target.textContent = t.kCopied; };
+      if (navigator.clipboard && navigator.clipboard.writeText) navigator.clipboard.writeText(txt).then(done, function () {});
+    }
+  });
+  app.addEventListener('submit', function (e) { e.preventDefault(); });
+
+  render();
+})();
+</script>
+</body>
+</html>
