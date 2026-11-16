@@ -17,10 +17,10 @@ AeroCam 讓相機的照片直接傳到 Android 手機，也能用手機遙控相
 Beta 預設是**免費版**（藍牙傳輸、用 USB 手動挑選並下載原圖）。輸入下面的測試金鑰，就能開啟 **Pro 和 Cine 的全部功能**。
 
 <!-- BETA-KEY -->
-**目前的測試金鑰**（有效到 **2026-11-22**，含當天）：
+**目前的測試金鑰**（有效到 **2026-11-29**，含當天）：
 
 ```
-AZB1-Q0lORXxwdWJsaWMtMjAyNjExMDl8MjAyNjExMDl8MjAyNjExMjI.MEUCIQDopY2ZJyqIMEqUja327AfWJcNqqf869SCkwJgXA9rC7QIgdBqFzQVtAENn164t1ULrYh5nccazeinxSyTBLlrgBwE
+AZB1-Q0lORXxwdWJsaWMtMjAyNjExMTZ8MjAyNjExMTZ8MjAyNjExMjk.MEQCIAL-8ZHwVcWy9PYgEqto5R-DAejeLeXmrHeoOpxm0cYdAiA60edamiDEq_TiFA-oyzWbiqQtuhfRUwBlY-pqRF2a7A
 ```
 <!-- /BETA-KEY -->
 
