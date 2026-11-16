@@ -17,10 +17,10 @@ AeroCam ส่งภาพถ่ายจากกล้องไปยังโ
 เวอร์ชัน Beta เริ่มต้นเป็น**เวอร์ชันฟรี** (การโอนถ่ายผ่าน Bluetooth และการเลือกดาวน์โหลดไฟล์ต้นฉบับด้วยตนเองผ่าน USB) กรอกคีย์ทดสอบเพื่อปลดล็อก**ฟีเจอร์ Pro และ Cine ทั้งหมด**
 
 <!-- BETA-KEY -->
-**คีย์ทดสอบปัจจุบัน** (ใช้ได้ถึง **2026-11-22** รวมวันนั้นด้วย):
+**คีย์ทดสอบปัจจุบัน** (ใช้ได้ถึง **2026-11-29** รวมวันนั้นด้วย):
 
 ```
-AZB1-Q0lORXxwdWJsaWMtMjAyNjExMDl8MjAyNjExMDl8MjAyNjExMjI.MEUCIQDopY2ZJyqIMEqUja327AfWJcNqqf869SCkwJgXA9rC7QIgdBqFzQVtAENn164t1ULrYh5nccazeinxSyTBLlrgBwE
+AZB1-Q0lORXxwdWJsaWMtMjAyNjExMTZ8MjAyNjExMTZ8MjAyNjExMjk.MEQCIAL-8ZHwVcWy9PYgEqto5R-DAejeLeXmrHeoOpxm0cYdAiA60edamiDEq_TiFA-oyzWbiqQtuhfRUwBlY-pqRF2a7A
 ```
 <!-- /BETA-KEY -->
 

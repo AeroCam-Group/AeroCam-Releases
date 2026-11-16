@@ -17,10 +17,10 @@ Memerlukan Android 10 atau yang lebih baru.
 Beta dimulai sebagai **versi gratis** (transfer Bluetooth, serta memilih dan mengunduh file asli secara manual melalui USB). Masukkan kunci uji untuk membuka **semua fitur Pro dan Cine**.
 
 <!-- BETA-KEY -->
-**Kunci uji saat ini** (berlaku sampai **2026-11-22**, termasuk hari itu):
+**Kunci uji saat ini** (berlaku sampai **2026-11-29**, termasuk hari itu):
 
 ```
-AZB1-Q0lORXxwdWJsaWMtMjAyNjExMDl8MjAyNjExMDl8MjAyNjExMjI.MEUCIQDopY2ZJyqIMEqUja327AfWJcNqqf869SCkwJgXA9rC7QIgdBqFzQVtAENn164t1ULrYh5nccazeinxSyTBLlrgBwE
+AZB1-Q0lORXxwdWJsaWMtMjAyNjExMTZ8MjAyNjExMTZ8MjAyNjExMjk.MEQCIAL-8ZHwVcWy9PYgEqto5R-DAejeLeXmrHeoOpxm0cYdAiA60edamiDEq_TiFA-oyzWbiqQtuhfRUwBlY-pqRF2a7A
 ```
 <!-- /BETA-KEY -->
 

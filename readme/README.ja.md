@@ -17,10 +17,10 @@ Android 10 以降が必要です。
 Beta は初期状態では**無料版**（Bluetooth 転送、および USB 経由での手動選択によるオリジナル画像のダウンロード）です。テストキーを入力すると、**Pro と Cine のすべての機能**がロック解除されます。
 
 <!-- BETA-KEY -->
-**現在のテストキー**（**2026-11-22** まで有効、当日を含む）：
+**現在のテストキー**（**2026-11-29** まで有効、当日を含む）：
 
 ```
-AZB1-Q0lORXxwdWJsaWMtMjAyNjExMDl8MjAyNjExMDl8MjAyNjExMjI.MEUCIQDopY2ZJyqIMEqUja327AfWJcNqqf869SCkwJgXA9rC7QIgdBqFzQVtAENn164t1ULrYh5nccazeinxSyTBLlrgBwE
+AZB1-Q0lORXxwdWJsaWMtMjAyNjExMTZ8MjAyNjExMTZ8MjAyNjExMjk.MEQCIAL-8ZHwVcWy9PYgEqto5R-DAejeLeXmrHeoOpxm0cYdAiA60edamiDEq_TiFA-oyzWbiqQtuhfRUwBlY-pqRF2a7A
 ```
 <!-- /BETA-KEY -->
 

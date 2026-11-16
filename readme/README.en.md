@@ -17,10 +17,10 @@ Requires Android 10 or later.
 The Beta starts as the **Free tier** (Bluetooth transfer, and picking and downloading originals by hand over USB). Enter the test key to unlock **every Pro and Cine feature**.
 
 <!-- BETA-KEY -->
-**The current test key** (valid until **2026-11-22**, inclusive):
+**The current test key** (valid until **2026-11-29**, inclusive):
 
 ```
-AZB1-Q0lORXxwdWJsaWMtMjAyNjExMDl8MjAyNjExMDl8MjAyNjExMjI.MEUCIQDopY2ZJyqIMEqUja327AfWJcNqqf869SCkwJgXA9rC7QIgdBqFzQVtAENn164t1ULrYh5nccazeinxSyTBLlrgBwE
+AZB1-Q0lORXxwdWJsaWMtMjAyNjExMTZ8MjAyNjExMTZ8MjAyNjExMjk.MEQCIAL-8ZHwVcWy9PYgEqto5R-DAejeLeXmrHeoOpxm0cYdAiA60edamiDEq_TiFA-oyzWbiqQtuhfRUwBlY-pqRF2a7A
 ```
 <!-- /BETA-KEY -->
 

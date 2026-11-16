@@ -17,10 +17,10 @@ Yêu cầu Android 10 trở lên.
 Bản Beta bắt đầu ở **gói miễn phí** (truyền qua Bluetooth, cũng như chọn và tải ảnh gốc thủ công qua USB). Nhập khóa thử nghiệm để mở khóa **toàn bộ tính năng Pro và Cine**.
 
 <!-- BETA-KEY -->
-**Khóa thử nghiệm hiện tại** (có hiệu lực đến hết ngày **2026-11-22**):
+**Khóa thử nghiệm hiện tại** (có hiệu lực đến hết ngày **2026-11-29**):
 
 ```
-AZB1-Q0lORXxwdWJsaWMtMjAyNjExMDl8MjAyNjExMDl8MjAyNjExMjI.MEUCIQDopY2ZJyqIMEqUja327AfWJcNqqf869SCkwJgXA9rC7QIgdBqFzQVtAENn164t1ULrYh5nccazeinxSyTBLlrgBwE
+AZB1-Q0lORXxwdWJsaWMtMjAyNjExMTZ8MjAyNjExMTZ8MjAyNjExMjk.MEQCIAL-8ZHwVcWy9PYgEqto5R-DAejeLeXmrHeoOpxm0cYdAiA60edamiDEq_TiFA-oyzWbiqQtuhfRUwBlY-pqRF2a7A
 ```
 <!-- /BETA-KEY -->
 

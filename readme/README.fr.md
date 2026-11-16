@@ -17,10 +17,10 @@ Nécessite Android 10 ou version ultérieure.
 La version Beta démarre en **version gratuite** (transfert Bluetooth, ainsi que sélection et téléchargement manuels des originaux via USB). Saisissez la clé de test pour débloquer **toutes les fonctionnalités Pro et Cine**.
 
 <!-- BETA-KEY -->
-**La clé de test actuelle** (valable jusqu'au **2026-11-22** inclus) :
+**La clé de test actuelle** (valable jusqu'au **2026-11-29** inclus) :
 
 ```
-AZB1-Q0lORXxwdWJsaWMtMjAyNjExMDl8MjAyNjExMDl8MjAyNjExMjI.MEUCIQDopY2ZJyqIMEqUja327AfWJcNqqf869SCkwJgXA9rC7QIgdBqFzQVtAENn164t1ULrYh5nccazeinxSyTBLlrgBwE
+AZB1-Q0lORXxwdWJsaWMtMjAyNjExMTZ8MjAyNjExMTZ8MjAyNjExMjk.MEQCIAL-8ZHwVcWy9PYgEqto5R-DAejeLeXmrHeoOpxm0cYdAiA60edamiDEq_TiFA-oyzWbiqQtuhfRUwBlY-pqRF2a7A
 ```
 <!-- /BETA-KEY -->
 

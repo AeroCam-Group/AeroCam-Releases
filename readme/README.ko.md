@@ -17,10 +17,10 @@ Android 10 이상이 필요합니다.
 Beta는 기본적으로 **무료 버전**(블루투스 전송 및 USB를 통한 수동 원본 선택 다운로드)으로 시작됩니다. 테스트 키를 입력하면 **Pro 및 Cine의 모든 기능**이 잠금 해제됩니다.
 
 <!-- BETA-KEY -->
-**현재 테스트 키** (**2026-11-22**까지 유효, 당일 포함):
+**현재 테스트 키** (**2026-11-29**까지 유효, 당일 포함):
 
 ```
-AZB1-Q0lORXxwdWJsaWMtMjAyNjExMDl8MjAyNjExMDl8MjAyNjExMjI.MEUCIQDopY2ZJyqIMEqUja327AfWJcNqqf869SCkwJgXA9rC7QIgdBqFzQVtAENn164t1ULrYh5nccazeinxSyTBLlrgBwE
+AZB1-Q0lORXxwdWJsaWMtMjAyNjExMTZ8MjAyNjExMTZ8MjAyNjExMjk.MEQCIAL-8ZHwVcWy9PYgEqto5R-DAejeLeXmrHeoOpxm0cYdAiA60edamiDEq_TiFA-oyzWbiqQtuhfRUwBlY-pqRF2a7A
 ```
 <!-- /BETA-KEY -->
 

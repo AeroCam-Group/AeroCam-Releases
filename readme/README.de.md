@@ -17,10 +17,10 @@ Erfordert Android 10 oder neuer.
 Die Beta startet in der **kostenlosen Version** (Bluetooth-Übertragung sowie manuelles Auswählen und Herunterladen von Originaldateien per USB). Geben Sie den Testschlüssel ein, um **alle Pro- und Cine-Funktionen** freizuschalten.
 
 <!-- BETA-KEY -->
-**Der aktuelle Testschlüssel** (gültig bis einschließlich **2026-11-22**):
+**Der aktuelle Testschlüssel** (gültig bis einschließlich **2026-11-29**):
 
 ```
-AZB1-Q0lORXxwdWJsaWMtMjAyNjExMDl8MjAyNjExMDl8MjAyNjExMjI.MEUCIQDopY2ZJyqIMEqUja327AfWJcNqqf869SCkwJgXA9rC7QIgdBqFzQVtAENn164t1ULrYh5nccazeinxSyTBLlrgBwE
+AZB1-Q0lORXxwdWJsaWMtMjAyNjExMTZ8MjAyNjExMTZ8MjAyNjExMjk.MEQCIAL-8ZHwVcWy9PYgEqto5R-DAejeLeXmrHeoOpxm0cYdAiA60edamiDEq_TiFA-oyzWbiqQtuhfRUwBlY-pqRF2a7A
 ```
 <!-- /BETA-KEY -->
 
